@@ -15,6 +15,7 @@ clone [trivia](https://github.com/addepalli8/trivia) repository from Github and 
 ```bash
 git clone https://github.com/addepalli8/trivia.git
 cd trivia
+npm i --save
 npm start
 ```
 
