@@ -43,7 +43,7 @@
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -91,4 +91,17 @@
 }
 .answer-title:disabled {
   cursor: default;
+}
+@media only screen and (max-width: 720px) {
+  .question-title {
+      font-size: 35px;
+      width: calc(100% - 15px);
+  }
+  .answer-title {
+    margin: 20px 5px;
+    width: calc(50% - 35px);
+  }
+  .metadata-section {
+    justify-content: space-between;
+  }
 }
