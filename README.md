@@ -1,6 +1,6 @@
 # TRIVIA QUIZ
 
-Trivia quiz has been created as part of the interview process as a sample project to analyse code standards and coding practices.
+Trivia quiz has been created as a sample project to improve and exhibit my code standards and coding practices.
 
 ### Problem Statement
 - Answer option should not be the same for all the Questions.
